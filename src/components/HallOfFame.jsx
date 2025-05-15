@@ -102,7 +102,7 @@ function HallOfFame() {
                 src={
                   hallOfFameGame?.images?.box?.og
                     ? imgURL + hallOfFameGame.images.box.og
-                    : "../public/placeholder2.jpg"
+                    : "../placeholder2.jpg"
                 }
                 alt={hallOfFameGame["name"]}
               />
