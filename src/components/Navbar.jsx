@@ -42,7 +42,7 @@ function Navbar() {
     <nav className="bg-[#FF5733] ">
       <ul className="flex container justify-between items-center py-8">
         <Link to="/">
-          <img src={"../public/logo-light.png"} alt="Logo" />
+          <img src="../logo-light.png" alt="Logo" />
         </Link>
         <div
           className="relative"
