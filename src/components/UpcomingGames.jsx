@@ -93,7 +93,7 @@ function UpcomingGames() {
                 src={
                   upcomingGame?.images?.box?.og
                     ? imgURL + upcomingGame["images"]["box"]["og"]
-                    : "../public/placeholder.png"
+                    : "../placeholder.png"
                 }
                 alt={upcomingGame["name"]}
               />
