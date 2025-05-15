@@ -22,7 +22,7 @@ function HallOfFame() {
   useEffect(() => {
     const fetchData = async () => {
       const url =
-        "https://opencritic-api.p.rapidapi.com/game/hall-of-fame/2024";
+        "https://opencritic-api.p.rapidapi.com/game/hall-of-fame/2025";
       const options = {
         method: "GET",
         headers: {
@@ -51,7 +51,7 @@ function HallOfFame() {
   return (
     <div className="container py-12">
       <div className="flex items-center py-5 justify-between">
-        <h4 className="font-bold text-2xl text-white">Hall of Fame 2024</h4>
+        <h4 className="font-bold text-2xl text-white">Hall of Fame 2025</h4>
         <div className="swiper-buttons flex md:w-2/10">
           <button
             ref={prevRef}
